@@ -1,0 +1,20 @@
+/* Estilos generales para todos los dispositivos.*/
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Párrafos e imágenes alineados a la izquierda por defecto.*/
+p, img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Sólo para pantallas (screen).*/
+@media screen {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
